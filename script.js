@@ -9,3 +9,13 @@ function calculateDiscount() {
         document.getElementById("discountedPrice").value = "Please enter a valid price amount.";
     }
 }
+
+function submitDemo() {
+    var name = document.getElementById("userName").value;
+
+    if (name == "") {
+        alert("Please enter your name first.");
+    } else {
+        alert("Thanks for booking a demo slot, " + name + "! We will contact you soon.");
+    }
+}
